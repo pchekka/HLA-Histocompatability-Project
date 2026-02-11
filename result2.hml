@@ -1,0 +1,1611 @@
+<?xml version='1.0' encoding='utf-8'?>
+<hml version="1.0.1">
+  <header>
+    <lab>Cornejo Lab &amp; UCSC BME 160</lab>
+    <analyst>Your Name</analyst>
+    <softwareVersion>1.0</softwareVersion>
+    <sequencingPlatform>Illumina MiSeq</sequencingPlatform>
+    <testDate>2025-12-05</testDate>
+    <referenceDatabase>IMGT/HLA 3.52.0</referenceDatabase>
+  </header>
+  <sample id="HG002">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*01:01:01:01</allele>
+        <allele>HLA-A*26:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*35:08:01:01</allele>
+        <allele>HLA-B*38:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*04:01:01:06</allele>
+        <allele>HLA-C*12:03:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:02</allele>
+        <allele>HLA-DPA1*01:03:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*04:01:01:01</allele>
+        <allele>HLA-DPB1*04:01:01:65</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:05:01:01</allele>
+        <allele>HLA-DQA1*03:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:02:01:01</allele>
+        <allele>HLA-DQB1*05:01:01:05</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*04:02:01</allele>
+        <allele>HLA-DRB1*10:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="HG003">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*26:01:01:01</allele>
+        <allele>HLA-A*30:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*13:02:01:01</allele>
+        <allele>HLA-B*38:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*06:02:01:01</allele>
+        <allele>HLA-C*12:03:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:02</allele>
+        <allele>HLA-DPA1*01:03:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*04:01:01:65</allele>
+        <allele>HLA-DPB1*04:02:01:16</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*02:01:01:01</allele>
+        <allele>HLA-DQA1*03:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*02:02:01:01</allele>
+        <allele>HLA-DQB1*03:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*04:02:01</allele>
+        <allele>HLA-DRB1*04:02:01</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="HG004">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*01:01:01:01</allele>
+        <allele>HLA-A*33:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*14:02:01:01</allele>
+        <allele>HLA-B*35:08:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*04:01:01:06</allele>
+        <allele>HLA-C*08:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:02</allele>
+        <allele>HLA-DPA1*01:03:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*04:01:01:01</allele>
+        <allele>HLA-DPB1*04:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:05:01:01</allele>
+        <allele>HLA-DQA1*03:03:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*04:02:01:01</allele>
+        <allele>HLA-DQB1*05:01:01:05</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*04:04:01:14</allele>
+        <allele>HLA-DRB1*10:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="HG005">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*24:02:01:01</allele>
+        <allele>HLA-A*24:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*15:01:01:01</allele>
+        <allele>HLA-B*40:06:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*04:01:01:11</allele>
+        <allele>HLA-C*08:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*05:01:01:01</allele>
+        <allele>HLA-DPB1*135:01:01:03</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*03:02:01:01</allele>
+        <allele>HLA-DQA1*03:03:01:03</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:03:02:02</allele>
+        <allele>HLA-DQB1*04:01:01:03</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*04:05:01:01</allele>
+        <allele>HLA-DRB1*04:05:01:05</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="HG01106">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*31:01:02:01</allele>
+        <allele>HLA-A*68:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*14:02:01:01</allele>
+        <allele>HLA-B*49:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*07:02:01:01</allele>
+        <allele>HLA-C*08:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:02</allele>
+        <allele>HLA-DPA1*02:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*04:01:01:01</allele>
+        <allele>HLA-DPB1*14:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*05:01:01:01</allele>
+        <allele>HLA-DQA1*05:05:01:03</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*02:01:01:01</allele>
+        <allele>HLA-DQB1*03:19:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*03:01:08</allele>
+        <allele>HLA-DRB1*11:02:01:03</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="HG01258">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*02:1062N</allele>
+        <allele>HLA-A*03:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*07:02:01:01</allele>
+        <allele>HLA-B*15:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*03:03:01:01</allele>
+        <allele>HLA-C*07:02:01:03</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:02</allele>
+        <allele>HLA-DPA1*01:03:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*04:01:01:01</allele>
+        <allele>HLA-DPB1*04:02:01:16</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:03:01:02</allele>
+        <allele>HLA-DQA1*01:05:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*05:01:01:05</allele>
+        <allele>HLA-DQB1*06:03:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*10:01:01:01</allele>
+        <allele>HLA-DRB1*13:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="HG01928">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*02:01:01:01</allele>
+        <allele>HLA-A*02:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*35:01:01:02</allele>
+        <allele>HLA-B*35:10</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*04:01:01:11</allele>
+        <allele>HLA-C*04:01:01:35</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:01</allele>
+        <allele>HLA-DPA1*01:03:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*02:01:02:01</allele>
+        <allele>HLA-DPB1*04:02:01:16</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*03:01:01:01</allele>
+        <allele>HLA-DQA1*03:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:02:01:01</allele>
+        <allele>HLA-DQB1*03:03:02:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*04:04:01:03</allele>
+        <allele>HLA-DRB1*04:04:01:14</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="HG02055">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*23:01:01:01</allele>
+        <allele>HLA-A*30:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*07:02:01:01</allele>
+        <allele>HLA-B*42:02:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*07:02:01:01</allele>
+        <allele>HLA-C*17:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*02:01:01:17</allele>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*01:01:01:02</allele>
+        <allele>HLA-DPB1*131:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*05:05:01:01</allele>
+        <allele>HLA-DQA1*05:05:01:03</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:01:04:02</allele>
+        <allele>HLA-DQB1*03:19:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*08:04:01:02</allele>
+        <allele>HLA-DRB1*11:02:01:03</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="HG02630">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*02:01:01:01</allele>
+        <allele>HLA-A*03:01:01:05</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*41:02:01:01</allele>
+        <allele>HLA-B*53:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*04:01:01:11</allele>
+        <allele>HLA-C*17:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:01</allele>
+        <allele>HLA-DPA1*02:01:08:03</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*01:01:01:16</allele>
+        <allele>HLA-DPB1*02:01:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*03:02:01:01</allele>
+        <allele>HLA-DQA1*03:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*02:01:01:01</allele>
+        <allele>HLA-DQB1*02:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*09:01:02:03</allele>
+        <allele>HLA-DRB1*09:01:02:07</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="HG03492">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*01:01:01:01</allele>
+        <allele>HLA-A*68:01:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*08:01:01:02</allele>
+        <allele>HLA-B*44:03:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*01:02:01:01</allele>
+        <allele>HLA-C*07:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:04</allele>
+        <allele>HLA-DPA1*02:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*04:01:01:01</allele>
+        <allele>HLA-DPB1*14:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:02:01:01</allele>
+        <allele>HLA-DQA1*05:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*02:01:01:01</allele>
+        <allele>HLA-DQB1*05:02:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*03:01:01:02</allele>
+        <allele>HLA-DRB1*15:06:01</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="HG03579">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*23:01:01:01</allele>
+        <allele>HLA-A*33:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*14:02:01:01</allele>
+        <allele>HLA-B*50:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*06:02:01:01</allele>
+        <allele>HLA-C*08:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*02:01:08:03</allele>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*01:01:01:01</allele>
+        <allele>HLA-DPB1*01:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*04:01:01:02</allele>
+        <allele>HLA-DQA1*04:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*04:02:01:04</allele>
+        <allele>HLA-DQB1*04:02:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*03:02:01:01</allele>
+        <allele>HLA-DRB1*03:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09021">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*30:01:01:01</allele>
+        <allele>HLA-A*68:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*42:01:01:01</allele>
+        <allele>HLA-B*42:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*17:01:01:02</allele>
+        <allele>HLA-C*17:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+        <allele>HLA-DPA1*03:01:01:05</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*01:01:01:02</allele>
+        <allele>HLA-DPB1*105:01:01:10</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*04:01:01:02</allele>
+        <allele>HLA-DQA1*04:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*04:02:01:01</allele>
+        <allele>HLA-DQB1*04:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*03:02:01:01</allele>
+        <allele>HLA-DRB1*03:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09049">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*33:01:01:01</allele>
+        <allele>HLA-A*33:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*14:02:01:01</allele>
+        <allele>HLA-B*14:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*08:02:01:01</allele>
+        <allele>HLA-C*08:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*02:01:01:02</allele>
+        <allele>HLA-DPA1*02:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*01:01:02:02</allele>
+        <allele>HLA-DPB1*01:01:02:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*02:01:01:01</allele>
+        <allele>HLA-DQA1*02:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*02:02:01:01</allele>
+        <allele>HLA-DQB1*02:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*07:01:26</allele>
+        <allele>HLA-DRB1*13:03:01:01</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09071">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*31:01:02:01</allele>
+        <allele>HLA-A*31:01:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*15:01:01:01</allele>
+        <allele>HLA-B*15:20</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*01:02:30:01</allele>
+        <allele>HLA-C*03:04:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:03</allele>
+        <allele>HLA-DPA1*01:03:01:15</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*03:01:01:01</allele>
+        <allele>HLA-DPB1*04:02:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*04:01:01:02</allele>
+        <allele>HLA-DQA1*04:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*04:02:01:04</allele>
+        <allele>HLA-DQB1*04:02:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*08:02:01:01</allele>
+        <allele>HLA-DRB1*08:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09117">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*02:26</allele>
+        <allele>HLA-A*31:01:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*27:195</allele>
+        <allele>HLA-B*48:13</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*02:10:06</allele>
+        <allele>HLA-C*07:1047</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:02</allele>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*05:01:01:01</allele>
+        <allele>HLA-DPB1*126:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:02:01:01</allele>
+        <allele>HLA-DQA1*03:03:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:02:43</allele>
+        <allele>HLA-DQB1*06:01:10</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*08:03:02:02</allele>
+        <allele>HLA-DRB1*15:02:01:03</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09118">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*02:01:01:01</allele>
+        <allele>HLA-A*24:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*56:01:01:04</allele>
+        <allele>HLA-B*56:01:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*01:02:01:01</allele>
+        <allele>HLA-C*01:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*05:01:01:01</allele>
+        <allele>HLA-DPB1*05:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*03:03:01:03</allele>
+        <allele>HLA-DQA1*05:05:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*04:02:01:09</allele>
+        <allele>HLA-DQB1*04:02:01:09</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*04:12</allele>
+        <allele>HLA-DRB1*14:09</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09122">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*03:01:01:01</allele>
+        <allele>HLA-A*24:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*07:02:01:01</allele>
+        <allele>HLA-B*40:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*07:02:01:03</allele>
+        <allele>HLA-C*15:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:02</allele>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*04:01:01:01</allele>
+        <allele>HLA-DPB1*05:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:02:01:01</allele>
+        <allele>HLA-DQA1*01:04:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*05:03:01:01</allele>
+        <allele>HLA-DQB1*06:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*14:04:01:01</allele>
+        <allele>HLA-DRB1*15:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09125">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*02:01:01:01</allele>
+        <allele>HLA-A*02:07:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*15:13:01</allele>
+        <allele>HLA-B*46:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*01:02:01:01</allele>
+        <allele>HLA-C*08:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:03</allele>
+        <allele>HLA-DPA1*04:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*107:01:01:01</allele>
+        <allele>HLA-DPB1*21:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:02:02:04</allele>
+        <allele>HLA-DQA1*06:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:01:01:22</allele>
+        <allele>HLA-DQB1*05:02:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*12:02:01:04</allele>
+        <allele>HLA-DRB1*12:02:01:06</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09175">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*02:05:01:01</allele>
+        <allele>HLA-A*68:27:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*44:03:01:01</allele>
+        <allele>HLA-B*58:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*04:01:01:11</allele>
+        <allele>HLA-C*07:18:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:02</allele>
+        <allele>HLA-DPA1*03:01:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*18:01:01:02</allele>
+        <allele>HLA-DPB1*58:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*02:01:01:01</allele>
+        <allele>HLA-DQA1*03:03:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*02:02:01:01</allele>
+        <allele>HLA-DQB1*04:02:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*04:04:01:03</allele>
+        <allele>HLA-DRB1*04:04:01:12</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09198">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*02:01:01:01</allele>
+        <allele>HLA-A*02:07:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*15:13:01</allele>
+        <allele>HLA-B*46:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*01:02:01:01</allele>
+        <allele>HLA-C*08:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:03</allele>
+        <allele>HLA-DPA1*01:03:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*04:01:01:01</allele>
+        <allele>HLA-DPB1*21:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:02:02:04</allele>
+        <allele>HLA-DQA1*06:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:01:01:22</allele>
+        <allele>HLA-DQB1*05:02:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*12:02:01:01</allele>
+        <allele>HLA-DRB1*12:02:01:04</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09200">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*11:01:01:01</allele>
+        <allele>HLA-A*29:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*07:05:01:01</allele>
+        <allele>HLA-B*40:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*15:02:01:01</allele>
+        <allele>HLA-C*15:05:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:01</allele>
+        <allele>HLA-DPA1*01:03:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*02:01:02:01</allele>
+        <allele>HLA-DPB1*02:01:02:11</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:05:01:01</allele>
+        <allele>HLA-DQA1*05:05:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:01:01:03</allele>
+        <allele>HLA-DQB1*05:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*10:01:01:01</allele>
+        <allele>HLA-DRB1*11:129</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09224">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*02:01:01:01</allele>
+        <allele>HLA-A*34:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*15:13:01</allele>
+        <allele>HLA-B*38:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*07:02:01:01</allele>
+        <allele>HLA-C*08:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*01:01:01:09</allele>
+        <allele>HLA-DPB1*01:01:01:10</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:01:01:01</allele>
+        <allele>HLA-DQA1*01:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*05:01:24:01</allele>
+        <allele>HLA-DQB1*05:02:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*15:02:01:02</allele>
+        <allele>HLA-DRB1*15:02:01:04</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09245">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*03:01:01:01</allele>
+        <allele>HLA-A*68:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*07:02:01:01</allele>
+        <allele>HLA-B*78:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*07:02:01:03</allele>
+        <allele>HLA-C*16:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:04</allele>
+        <allele>HLA-DPA1*03:01:01:06</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*04:01:01:01</allele>
+        <allele>HLA-DPB1*04:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:02:01:03</allele>
+        <allele>HLA-DQA1*05:05:01:03</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:01:01:03</allele>
+        <allele>HLA-DQB1*06:422N</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*08:06:01:02</allele>
+        <allele>HLA-DRB1*13:03:01:01</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09251">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*02:01:01:01</allele>
+        <allele>HLA-A*24:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*48:01:01:01</allele>
+        <allele>HLA-B*51:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*08:01:01:01</allele>
+        <allele>HLA-C*08:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:15</allele>
+        <allele>HLA-DPA1*01:03:01:83</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*02:01:02:32</allele>
+        <allele>HLA-DPB1*04:02:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*05:03:01:02</allele>
+        <allele>HLA-DQA1*05:03:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:01:01:01</allele>
+        <allele>HLA-DQB1*03:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*14:02:01:02</allele>
+        <allele>HLA-DRB1*14:02:01:02</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09359">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*24:02:01:01</allele>
+        <allele>HLA-A*31:01:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*15:20</allele>
+        <allele>HLA-B*51:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*03:04:01:02</allele>
+        <allele>HLA-C*03:04:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:02</allele>
+        <allele>HLA-DPA1*02:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*04:02:01:16</allele>
+        <allele>HLA-DPB1*14:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*03:01:01:01</allele>
+        <allele>HLA-DQA1*03:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:02:01:01</allele>
+        <allele>HLA-DQB1*03:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*04:04:01:14</allele>
+        <allele>HLA-DRB1*04:11:01:01</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09364">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*02:11:01:01</allele>
+        <allele>HLA-A*68:01:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*35:05:01:02</allele>
+        <allele>HLA-B*40:04:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*03:04:01:02</allele>
+        <allele>HLA-C*04:01:01:11</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*02:01:01:17</allele>
+        <allele>HLA-DPA1*02:01:01:17</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*27:01</allele>
+        <allele>HLA-DPB1*27:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*03:01:01:01</allele>
+        <allele>HLA-DQA1*03:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:02:01:01</allele>
+        <allele>HLA-DQB1*03:03:02:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*04:11:01:01</allele>
+        <allele>HLA-DRB1*04:11:01:01</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="IHW09409">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*31:01:02:01</allele>
+        <allele>HLA-A*34:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*35:01:01:02</allele>
+        <allele>HLA-B*38:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*04:01:01:11</allele>
+        <allele>HLA-C*07:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:02</allele>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*01:01:01:09</allele>
+        <allele>HLA-DPB1*04:02:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:02:01:01</allele>
+        <allele>HLA-DQA1*04:01:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*04:02:01:01</allele>
+        <allele>HLA-DQB1*05:02:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*08:11:01:01</allele>
+        <allele>HLA-DRB1*15:02:01:03</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="NA19240">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*30:01:01:01</allele>
+        <allele>HLA-A*68:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*35:01:01:18</allele>
+        <allele>HLA-B*57:03:01:05</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*04:01:01:11</allele>
+        <allele>HLA-C*18:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*02:01:08:03</allele>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*01:01:01:01</allele>
+        <allele>HLA-DPB1*01:01:01:03</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:02:02:04</allele>
+        <allele>HLA-DQA1*05:05:01:03</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:01:01:05</allele>
+        <allele>HLA-DQB1*05:02:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*12:01:01:05</allele>
+        <allele>HLA-DRB1*16:02:01:03</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="NA20129">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*30:02:01:03</allele>
+        <allele>HLA-A*31:01:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*08:01:01:37</allele>
+        <allele>HLA-B*48:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*04:01:01:11</allele>
+        <allele>HLA-C*07:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:02</allele>
+        <allele>HLA-DPA1*04:02:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*04:01:01:01</allele>
+        <allele>HLA-DPB1*665:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*05:01:01:02</allele>
+        <allele>HLA-DQA1*05:03:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*02:01:01:01</allele>
+        <allele>HLA-DQB1*03:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*03:01:08</allele>
+        <allele>HLA-DRB1*14:02:01:02</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="NA21309">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*01:03:01:01</allele>
+        <allele>HLA-A*02:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*08:01:01:01</allele>
+        <allele>HLA-B*49:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*07:01:01:01</allele>
+        <allele>HLA-C*07:04:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*01:03:01:01</allele>
+        <allele>HLA-DPA1*03:01:01:05</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*105:01:01:01</allele>
+        <allele>HLA-DPB1*30:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*01:02:01:01</allele>
+        <allele>HLA-DQA1*01:02:01:04</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*06:02:01:01</allele>
+        <allele>HLA-DQB1*06:04:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*13:02:01:01</allele>
+        <allele>HLA-DRB1*15:03:01:02</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="NA24694">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*11:01:01:01</allele>
+        <allele>HLA-A*24:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*15:01:01:01</allele>
+        <allele>HLA-B*51:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*04:01:01:11</allele>
+        <allele>HLA-C*14:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*02:01:01:17</allele>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*05:01:01:01</allele>
+        <allele>HLA-DPB1*135:01:01:03</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*03:02:01:01</allele>
+        <allele>HLA-DQA1*03:03:01:03</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:03:02:02</allele>
+        <allele>HLA-DQB1*04:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*04:05:01:01</allele>
+        <allele>HLA-DRB1*04:05:01:05</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+  <sample id="NA24695">
+    <typing gene="HLA-A">
+      <allele-assignment>
+        <allele>HLA-A*02:07:01:01</allele>
+        <allele>HLA-A*24:02:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-B">
+      <allele-assignment>
+        <allele>HLA-B*40:06:01:01</allele>
+        <allele>HLA-B*46:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-C">
+      <allele-assignment>
+        <allele>HLA-C*01:02:01:01</allele>
+        <allele>HLA-C*08:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPA1">
+      <allele-assignment>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+        <allele>HLA-DPA1*02:02:02:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DPB1">
+      <allele-assignment>
+        <allele>HLA-DPB1*05:01:01:01</allele>
+        <allele>HLA-DPB1*05:01:01:01</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQA1">
+      <allele-assignment>
+        <allele>HLA-DQA1*03:02:01:01</allele>
+        <allele>HLA-DQA1*03:02:01:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DQB1">
+      <allele-assignment>
+        <allele>HLA-DQB1*03:03:02:02</allele>
+        <allele>HLA-DQB1*03:03:02:02</allele>
+      </allele-assignment>
+    </typing>
+    <typing gene="HLA-DRB1">
+      <allele-assignment>
+        <allele>HLA-DRB1*09:01:02:01</allele>
+        <allele>HLA-DRB1*09:01:02:05</allele>
+      </allele-assignment>
+    </typing>
+  </sample>
+</hml>

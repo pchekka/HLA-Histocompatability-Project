@@ -1,0 +1,8 @@
+{
+    "lab": "Cornejo Lab & UCSC BME 160",
+    "analyst": "Your Name",
+    "software_version": "1.0",
+    "sequencing_platform": "Illumina MiSeq",
+    "date": "2025-12-05",
+    "reference_database": "IMGT/HLA 3.52.0"
+}
