@@ -1,42 +1,34 @@
-#!/usr/bin/env python3
-# Name: Pallavi Chekka (pchekka)
-from models import Sample, Typing
-from parser import parse_allele_csv, parse_cds_fasta
+from parser import parse_allele_csv, parse_fasta
 from hml_writer import HMLWriter
 
 
-ALLELE_CSV = "allele_output.csv"
-CDS_FASTA = "all_CDS.fasta"
+ALLELE_FILE = "allele_output.csv"
+CDS_FILE = "all_CDS.fasta"
+GENE_FILE = "all_gene.fasta"
 OUTPUT_HML = "result.hml"
 
 
 def main():
-    allele_data = parse_allele_csv(ALLELE_CSV)
-    cds_data = parse_cds_fasta(CDS_FASTA)
 
-    samples = []
+    print("Parsing allele CSV...")
+    allele_dict = parse_allele_csv(ALLELE_FILE)
 
-    for sample_id, genes in allele_data.items():
-        sample = Sample(sample_id)
+    print("Parsing CDS FASTA...")
+    cds_dict = parse_fasta(CDS_FILE)
 
-        for gene, alleles in genes.items():
-            typing = Typing(gene)
+    print("Parsing full gene FASTA...")
+    gene_dict = parse_fasta(GENE_FILE)
 
-            # allele assignment
-            for allele in alleles:
-                typing.add_allele(allele)
+    print("Writing HML...")
+    writer = HMLWriter()
+    writer.write(
+        OUTPUT_HML,
+        allele_dict,
+        cds_dict,
+        gene_dict
+    )
 
-            # consensus sequence = CDS allele 1
-            cds_seq = cds_data.get(sample_id, {}).get(gene, {}).get("1")
-            if cds_seq:
-                typing.set_consensus_sequence(cds_seq)
-
-            sample.add_typing(typing)
-
-        samples.append(sample)
-
-    writer = HMLWriter(samples)
-    writer.write(OUTPUT_HML)
+    print("Done.")
 
 
 if __name__ == "__main__":
