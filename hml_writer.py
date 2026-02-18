@@ -1,83 +1,54 @@
 import xml.etree.ElementTree as ET
-from xml.dom import minidom
-
-
-def wrap_sequence(seq, line_length=60):
-    return "\n".join(
-        seq[i:i + line_length]
-        for i in range(0, len(seq), line_length)
-    )
 
 
 class HMLWriter:
-    def __init__(self, samples):
-        self.samples = samples
 
-    def write(self, output_path):
+    def __init__(self):
+        self.namespace = "http://schemas.nmdp.org/spec/hml/1.0.1"
 
-        # ---------- BUILD XML ----------
-        hml = ET.Element(
+    def _format_sequence(self, seq, line_length=60):
+        return "\n".join(
+            seq[i:i + line_length]
+            for i in range(0, len(seq), line_length)
+        )
+
+    def write(self, output_path, allele_dict, cds_dict, gene_dict):
+        root = ET.Element(
             "hml",
             {
-                "xmlns": "http://schemas.nmdp.org/spec/hml/1.0.1",
-                "version": "1.0.1",
-            },
+                "xmlns": self.namespace,
+                "version": "1.0.1"
+            }
         )
 
-        for sample in self.samples:
-            sample_el = ET.SubElement(hml, "sample", {"id": sample.sample_id})
+        for sample, genes in allele_dict.items():
 
-            for typing in sample.typings:
-                typing_el = ET.SubElement(sample_el, "typing", {"gene": typing.gene})
+            sample_elem = ET.SubElement(root, "sample", {"id": sample.upper()})
 
-                if typing.consensus_sequence:
-                    cs = ET.SubElement(typing_el, "consensus-sequence")
-                    seq = ET.SubElement(cs, "sequence")
-                    seq.text = "\n" + wrap_sequence(
-                        typing.consensus_sequence.sequence
-                    ) + "\n"
 
-                aa = ET.SubElement(typing_el, "allele-assignment")
-                for allele in typing.alleles:
-                    ET.SubElement(aa, "allele", {"name": allele.name})
+            for gene, alleles in genes.items():
 
-        # ---------- STRUCTURE PRETTY PRINT ----------
-        rough_string = ET.tostring(hml, encoding="utf-8")
-        reparsed = minidom.parseString(rough_string)
-        pretty_xml = reparsed.toprettyxml(indent="  ")
+                typing_elem = ET.SubElement(sample_elem, "typing", {"gene": gene})
 
-        # Remove blank lines
-        pretty_xml = "\n".join(
-            line for line in pretty_xml.split("\n") if line.strip()
-        )
+                # ----- CDS consensus -----
+                if gene in cds_dict:
+                    cds_cons = ET.SubElement(typing_elem, "consensus-sequence")
+                    cds_seq = ET.SubElement(cds_cons, "sequence")
+                    cds_seq.text = "\n" + self._format_sequence(cds_dict[gene]) + "\n"
 
-        # ---------- FIX SEQUENCE INDENTATION ----------
-        lines = pretty_xml.split("\n")
-        fixed = []
-        inside_sequence = False
-        sequence_indent = ""
+                # ----- FULL GENE consensus -----
+                if gene in gene_dict:
+                    gene_cons = ET.SubElement(typing_elem, "gene-consensus-sequence")
+                    gene_seq = ET.SubElement(gene_cons, "sequence")
+                    gene_seq.text = "\n" + self._format_sequence(gene_dict[gene]) + "\n"
 
-        for line in lines:
-            stripped = line.lstrip()
+                # ----- Allele assignment -----
+                allele_assign = ET.SubElement(typing_elem, "allele-assignment")
 
-            if stripped.startswith("<sequence>"):
-                inside_sequence = True
-                sequence_indent = line[:len(line) - len(stripped)]
-                fixed.append(line)
-                continue
+                for allele in alleles:
+                    ET.SubElement(allele_assign, "allele", {"name": allele})
 
-            if stripped.startswith("</sequence>"):
-                inside_sequence = False
-                fixed.append(line)
-                continue
+        tree = ET.ElementTree(root)
+        ET.indent(tree, space="  ")
+        tree.write(output_path, encoding="utf-8", xml_declaration=True)
 
-            if inside_sequence:
-                # indent relative to the <sequence> tag
-                fixed.append(sequence_indent + "  " + stripped)
-            else:
-                fixed.append(line)
-
-        final_xml = "\n".join(fixed)
-
-        with open(output_path, "w") as f:
-            f.write(final_xml)
